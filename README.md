@@ -35,9 +35,9 @@ By the end of this, developers should be able to:
 - [DOM Model - 2](lab-digging-dom/DOM-Model-02.svg)
 - [DOM Model - 3](lab-digging-dom/DOM-Model-03.txt)
 
-## Lab: [The Dom Detective](theDomDetective_LAB.md)
-
 ## Lab: [Change The Logo](changeTheLogo_LAB.md)
+
+## Lab: [The Dom Detective](theDomDetective_LAB.md)
 
 ## Lab: Explore and discuss the difference between
 
