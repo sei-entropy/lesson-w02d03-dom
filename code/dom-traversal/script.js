@@ -93,10 +93,68 @@
 // logoImg.setAttribute('srcset', 'https://amp.businessinsider.com/images/4fd8dcb7eab8eab648000004-750-143.jpg')
 
 // Find the h1
+// const heading = document.querySelector("h1");
 
-const heading = document.querySelector("h1");
+// // print the current test of h1
+// console.log(heading.innerText);
+
+// // change the h1 text ti "Change by Js"
+// heading.innerText = "Changed by JS";
+
+// const input = document.querySelector("input");
+
+// console.log(input.value);
+
+// input.value = "Ali";
+
+// //This is only for form-related data
+// // input, textarea, dropdowns, checkboxes
+
+// //styles
+
+// heading.style.color = "hotpink";
+
+// heading.style.fontSize = "120px";
+
+// heading.style.backgroundColor = "green";
+
+// console.log("heading width: ", heading.style.width);
+
+/*
+
+create an Element 
+
+1- Create the element and store it in a JS variable.
+
+2- Change it (using things like .innertext, .style, .setAttr)
+
+3- Put it on the page. 
 
 
-// print the current test of h1 
+*/
 
-console.log(heading.innerText)
+const newHeading = document.createElement("h1");
+newHeading.innerText = "created by JS!!";
+
+const targetDiv = document.querySelector(".dynamic");
+
+targetDiv.prepend(newHeading);
+
+console.log(targetDiv);
+
+const aTag = document.querySelector("a");
+
+targetDiv.prepend(aTag);
+
+// make
+const newImg = document.createElement("img");
+
+//Change
+newImg.setAttribute("src", "https://www.placecage.com/300/300");
+newImg.style.border = "4px dashed purple";
+
+//Add to the page
+
+document.querySelector("body").appendChild(newImg);
+
+
